@@ -1,0 +1,67 @@
+{
+    "extConfig": {
+        "enums": [
+            {
+                "name": "ActionType",
+                "values": [
+                    "Building",
+                    "Codding",
+                    "Debugging",
+                    "Documenting",
+                    "Idle",
+                    "Testing"
+                ]
+            },
+            {
+                "name": "SessionState",
+                "values": [
+                    "Ongoing",
+                    "Idle",
+                    "Ended"
+                ]
+            }
+        ]
+    },
+    "data": [
+        {
+            "config": false,
+            "user": "edskate",
+            "dailySessions": [
+                {
+                    "date": "Wed Sep 09 2026",
+                    "sessions": [
+                        {
+                            "sessionInfo": {
+                                "id": "451c7837-d674-4bb0-a6b9-2de9e85b59a1",
+                                "duration": 284541,
+                                "idle": 1784568,
+                                "state": "Idle",
+                                "durations": [
+                                    {
+                                        "id": "4ed7d125-fd25-423b-afe8-d6467faf59c1",
+                                        "state": "Idle",
+                                        "begin": 1788978440612,
+                                        "end": 1788978440612,
+                                        "duration": 0
+                                    },
+                                    {
+                                        "id": "9ee2d7c0-de8a-4859-a992-497a5ae71b34",
+                                        "state": "Ongoing",
+                                        "begin": 1788978156071,
+                                        "end": 1788978440612,
+                                        "duration": 284541
+                                    }
+                                ],
+                                "filesExt": [
+                                    ".vscode-chat-customizations-evaluations-#1-Chat Customizations Evaluations",
+                                    ".html"
+                                ]
+                            },
+                            "actionType": "Idle"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
